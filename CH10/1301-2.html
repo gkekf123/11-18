@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>member.html</title>
+<style>
+body{
+width: 800px;
+}
+ul{
+list-style-type: none;
+border-bottom: solid 1px gray;
+padding-bottom: 5px;
+}
+.main_ul{
+width: 500px;
+margin:10px 0 0 50px;
+padding-top: 5px;
+}
+h3{
+padding-bottom: 10px;
+border-bottom: solid 3px red;
+}
+li{
+padding: 5px;
+}
+.in_ul{
+margin-left: 50px;
+display: inline-block;
+}
+.ina{
+display: inline-block;
+}
+span{
+color: red;
+}
+.year{
+width: 50px;
+}
+.mon{
+width: 40px;
+}
+.day{
+width: 40px;
+}
+.ph1{
+width: 30px;
+}
+.ph2, .ph3{
+width: 50px;
+}
+.button2{
+padding-top: 10px;
+padding-left: 400px;
+}
+.botline{
+border-bottom: none;
+}
+.a {
+width : 100px;
+color: black;
+display : inline-block;
+}
+</style>
+</head>
+<body>
+<div id="head">
+<h2>회원가입정보</h2>
+<ul id="main_ul">
+<li>
+<ul class="in_ul">
+<li class="ina"><span>*</span> <span class ="a"> 아이디 </span> </li>
+<li class="ina">
+<input type="text">
+<button>중복확인</button>영문, 숫자 조합으로 4~12자 이내
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="in_ul">
+<li class="ina"><span>*</span> <span class ="a"> 비밀번호 </span> </li>
+<input type="password">
+영문, 숫자 조합으로 4~12자 이내
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="in_ul">
+<li class="ina"><span>*</span> <span class ="a"> 비밀번호 확인 </span> </li>
+<input type="password">
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="in_ul">
+<li class="ina"><span>*</span> <span class ="a"> 이름 </span> </li>
+<input type="text">
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="in_ul">
+<li class="ina"><span>*</span> <span class ="a"> 생년월일</span>
+<input type="text" class="year">
+년 &nbsp;
+<input type="text" class="mon">
+월 &nbsp;
+<input type="text" class="day">
+일 &nbsp;
+<input type="radio">음력 &nbsp;
+<input type="radio">양력
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="in_ul">
+<li class="ina"><span>*</span> <span class ="a"> 이메일 </span> </li>
+<input type="text">
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="in_ul">
+<li class="ina"><span>*</span> <span class ="a"> 휴대전화 </span> </li>
+<input type="text" class="ph1">
+-
+<input type="text" class="ph2">
+-
+<input type="text" class="ph3">
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="in_ul">
+<li class="ina"><span class ="a"> 직업</span> </li>
+<select>
+<option>직업선택</option>
+</select>
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="in_ul">
+<li class="ina"><span class ="a"> 영어수강목적 </span>
+<input type="checkbox" id="check"> 시험대비
+<input type="checkbox" id="check"> 업무상
+<input type="checkbox" id="check"> 취미
+<input type="checkbox" id="check"> 기타
+</li>
+</li>
+</ul>
+</li>
+
+<li>
+<ul class="botline">
+<li class="button2">
+<button type="button">가입취소</button>
+<button type="button">가입완료</button>
+</li>
+</ul>
+</li>
+
+
+
+
+</ul>
+</body>
+</html>
